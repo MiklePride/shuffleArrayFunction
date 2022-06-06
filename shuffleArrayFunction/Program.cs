@@ -3,10 +3,10 @@
     static void Main(string[] args)
     {
         int[] arrayNumbers = { 1, 2, 3, 4, 5, 6 };
+
         ArrayScreen(arrayNumbers);
         arrayNumbers = ArrayShuffle(arrayNumbers);
         ArrayScreen(arrayNumbers);
-
     }
 
     static int[] ArrayShuffle(int[] array)
